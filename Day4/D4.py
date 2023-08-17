@@ -5,7 +5,7 @@ def isComplete(arr) :
     for j in range(maxIdx, len(arr) - 1) :
         if arr[j] < arr[j + 1] : return 0
     return sum(arr)
-    
+
 n = int(input())
 hbg = list(map(int, input().split()))[:n]
 

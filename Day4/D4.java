@@ -9,7 +9,7 @@ class Day4 {
             hbg[i] = sc.nextInt();
         }
 
-        System.out.println(isComplete(hbg));
+        System.out.println(isComplete(hbg)); 
     }
 
     static int isComplete(int[] arr) {
