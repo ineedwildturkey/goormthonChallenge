@@ -15,3 +15,8 @@ for a in str_list :
                 if temp > result : result = temp
 
 print(result)
+
+
+"""
+시간 초과, for 문을 너무 많이 쓴 것 같다
+"""
