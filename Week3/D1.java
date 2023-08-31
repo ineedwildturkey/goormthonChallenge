@@ -1,5 +1,3 @@
-package questions;
-
 import java.util.*;
 
 class Week3_1 {
@@ -33,12 +31,12 @@ class Week3_1 {
 }
 
 /**
-코드 해설
-
-1. n, a, b 입력, b > a면 a, b 값 교환
-2. n ÷ a의 몫(이하 aCount)를 이용하여 while문 실행
-	1) n - a × aCount(이하 temp) 가 b로 나눠질 경우 aCount + temp ÷ b 출력
-	2) 그렇지 않다면 aCount - 1로 1)을 다시 실행
-	3) aCount가 0이라면 b만으로 나눠지는지 확인, 참이면 n ÷ b 출력
-	4) 3)이 거짓이면 -1 출력
+ * 코드 해설
+ * 
+ * 1. n, a, b 입력, b > a면 a, b 값 교환
+ * 2. n ÷ a의 몫(이하 aCount)를 이용하여 while문 실행
+ * 1) n - a × aCount(이하 temp) 가 b로 나눠질 경우 aCount + temp ÷ b 출력
+ * 2) 그렇지 않다면 aCount - 1로 1)을 다시 실행
+ * 3) aCount가 0이라면 b만으로 나눠지는지 확인, 참이면 n ÷ b 출력
+ * 4) 3)이 거짓이면 -1 출력
  */
